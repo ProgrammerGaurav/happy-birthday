@@ -1,4 +1,8 @@
 /* customizable snowflake styling */
+.loader {
+    z-index: 9999999999999999999999;
+}
+
 body {
     background-color: #FFDAB9;
 }
