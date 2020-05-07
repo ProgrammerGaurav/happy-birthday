@@ -1,9 +1,8 @@
-$('document').ready(function () {
+$('#play').click(function () {
+    $(".loader").fadeOut("slow");;
     $('.balloon-border').animate({
         top: -500
     }, 8000);
-});
-$('#play').click(function () {
     var audio = $('.song')[0];
     audio.play();
 });
