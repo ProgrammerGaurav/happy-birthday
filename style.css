@@ -60,6 +60,8 @@ img {
 
 .snowflake img {
     opacity: 0.7;
+    height: auto;
+    width: 50px;
 }
 
 .snowflake {
