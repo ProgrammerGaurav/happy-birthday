@@ -2,10 +2,10 @@ $('document').ready(function () {
     $('.balloon-border').animate({
         top: -500
     }, 8000);
-
+    var audio = $('.song')[0];
+    audio.play();
 });
-var audio = $('.song')[0];
-audio.play();
+
 var typed = new Typed("#typed", {
     stringsElement: '#typed-strings',
     typeSpeed: 30,
