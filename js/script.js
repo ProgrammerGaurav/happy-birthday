@@ -4,6 +4,8 @@ $('document').ready(function () {
     }, 8000);
 
 });
+var audio = $('.song')[0];
+audio.play();
 var typed = new Typed("#typed", {
     stringsElement: '#typed-strings',
     typeSpeed: 30,
