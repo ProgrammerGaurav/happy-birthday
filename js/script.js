@@ -2,8 +2,7 @@ $('document').ready(function () {
     $('.balloon-border').animate({
         top: -500
     }, 8000);
-    var audio = $('.song')[0];
-    audio.play();
+    $('audio')[0].play();
 });
 
 var typed = new Typed("#typed", {
