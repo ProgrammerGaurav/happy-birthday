@@ -1,7 +1,6 @@
 $('#play').click(function () {
     $(".loader").fadeOut("slow");
-
-    $(".Snowflakes").fadeOut("slow");
+    sf.destroy();
     $('.balloon-border').animate({
         top: -500
     }, 8000);
