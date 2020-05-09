@@ -10,10 +10,8 @@ if (c != null) {
     document.getElementById("name").innerHTML = c;
     document.getElementById("nae").innerHTML = c;
 }
-$(".main").fadeOut("slow");
 $('#play').click(function () {
     $(".loader").fadeOut("slow");
-    $(".main").fadeIn("slow");
     sf.destroy();
     $('.balloon-border').animate({
         top: -500
