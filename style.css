@@ -117,4 +117,13 @@ img {
 .type-wrap {
     font-size: 25px;
     color: #C4515C;
+
+}
+
+.cake {
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    padding-top: 250px;
 }
