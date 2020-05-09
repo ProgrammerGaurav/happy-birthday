@@ -51,7 +51,7 @@
     width: 100%;
     height: 100%;
     z-index: 999;
-    background: url(back.png) center no-repeat #000;
+    background: url(img/back.png) center no-repeat #000;
 }
 
 .song {
@@ -113,7 +113,6 @@ img {
         transform: rotateZ(-10deg);
     }
 }
-
 
 .type-wrap {
     font-size: 25px;
