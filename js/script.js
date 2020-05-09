@@ -1,3 +1,15 @@
+var sf = new Snowflakes({
+    color: "#ffd700",
+    minSize: 20
+});
+var url_string = window.location.href; //window.location.href
+var url = new URL(url_string);
+var c = url.searchParams.get("name");
+console.log(c);
+if (c != null) {
+    document.getElementById("name").innerHTML = c;
+    document.getElementById("nae").innerHTML = c;
+}
 $('#play').click(function () {
     $(".loader").fadeOut("slow");
     sf.destroy();
