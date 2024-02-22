@@ -64,7 +64,7 @@
 }
 
 body {
-  background-image: url(img/pexels.jpg);
+  background-image: url(img/blues.webp);
   background-size: cover;
 }
 
@@ -122,13 +122,13 @@ img {
 
 .type-wrap {
   font-size: 25px;
-  color: #c80d1f;
+  color: #e5e5e5;
 }
 
-.cake {
+/* .cake {
   transform: translateY(-50%);
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
   padding-top: 250px;
-}
+} */
