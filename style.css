@@ -107,7 +107,7 @@ img {
 
     50% {
         transform: rotateZ(0deg);
-    }
+    }   
 
     75% {
         transform: rotateZ(-10deg);
@@ -116,7 +116,7 @@ img {
 
 .type-wrap {
     font-size: 25px;
-    color: #C4515C;
+    color: #d40000;
 
 }
 
@@ -126,4 +126,24 @@ img {
     left: 50%;
     position: absolute;
     padding-top: 250px;
+}
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+#video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
